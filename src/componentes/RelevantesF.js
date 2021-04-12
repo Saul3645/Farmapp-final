@@ -32,20 +32,20 @@ function RelevantesF() {
                     <div class="productos">
                         <h2><i>Glucophage</i></h2>
                         <div>
-                            <img src="images/Glucophage40.png" width="150px" height="150px"></img>
+                            <img src="images/Glucophage40.png" width="150px" height="150px" alt=""></img>
                         </div>
                         <h4>Glucophage con 40 Tabletas (850 mg)</h4>
                         <br/>
-                        <a href="" class="boton_1"><i>Ver Producto</i></a>
+                        <a href="/" class="boton_1"><i>Ver Producto</i></a>
                     </div>
                     <div class="productos">
                         <h2><i>Glucophage XR</i></h2>
                         <div>
-                            <img src="images/GlucophaneXR.png" width="150px" height="150px"></img>
+                            <img src="images/GlucophaneXR.png" width="150px" height="150px" alt=""></img>
                         </div>
                         <h4>Glucophage con 40 Tabletas (850 mg)</h4>
                         <br/>
-                        <a href="" class="boton_1"><i>Ver Producto</i></a>
+                        <a href="/" class="boton_1"><i>Ver Producto</i></a>
                     </div>
                 </div>
             </div>

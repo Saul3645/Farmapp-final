@@ -51,12 +51,12 @@ class Perfil extends React.Component {
 
                 <ul className='botones'>
                     <li>
-                        <button className="btn" role="button">
+                        <button className="btn" >
                             Ubicación
                         </button>
                     </li>
                     <li>
-                        <button className="btn" role="button">
+                        <button className="btn">
                             Mensaje
                         </button>
                     </li>

@@ -43,7 +43,7 @@ export default function DashboardPerfil() {
 
 
                     
-                    <button onClick={handleLogout} className="btn" role="button">
+                    <button onClick={handleLogout} className="btn" >
                         Log out
                     </button>
                     
