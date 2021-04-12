@@ -54,7 +54,7 @@ export default function UpdateProfile() {
                   <input id="email" className="login" type='email' ref={emailRef} required defaultValue={currentUser.email}></input><br />
                   <input id="password" className="loginp"  ref={passwordRef} type='password' placeholder="Nueva Contraseña"></input><br />
                   <input id="password confirm" className="loginp" ref={passwordConfirmRef} type='password' placeholder="Confirmar nueva contraseña"></input><br />
-                  <button disabled={loading} className="btn" type="submit" role="button">
+                  <button disabled={loading} className="btn" type="submit" >
                      Actualizar
                   </button><br />
                   <p className="a_reg">

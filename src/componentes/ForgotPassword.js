@@ -42,7 +42,7 @@ export default function ForgotPassword() {
                <form onSubmit={handleSubmit}>
                   <input id="email" className="login" type='email' ref={emailRef} placeholder="Introduce tu email" required></input><br />
 
-                  <button disabled={loading} className="btn" type="submit" role="button">
+                  <button disabled={loading} className="btn" type="submit" >
                      Cambiar Contraseña
                   </button><br />
                   <p className="a_reg">

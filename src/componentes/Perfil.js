@@ -36,7 +36,7 @@ class Perfil extends React.Component {
         return (
             <>
                 <div className='perfil'>
-                    <img className='avatar' src={this.state.farmacias.Url}/>
+                    <img className='avatar' src={this.state.farmacias.Url} alt=""/>
                     <h1 className='user-name'>{this.state.farmacias.Nombre}</h1>
                 </div>
 

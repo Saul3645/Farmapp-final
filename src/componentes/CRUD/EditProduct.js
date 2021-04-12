@@ -125,7 +125,7 @@ class EditProduct extends React.Component {
 
                     <div className="upload-data">
 
-                        <img src={this.state.Url} heigth="200" width="200" />
+                        <img src={this.state.Url} heigth="200" width="200" alt=""/>
                     </div>
                     <div class="upload-btn-wrapper">
                         <button class="file-btn">Elige una imagen</button>

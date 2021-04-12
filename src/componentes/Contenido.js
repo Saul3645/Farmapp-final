@@ -53,7 +53,7 @@ function Contenido() {
       <section class="container_">
         <section class="one">
           <div class="logo">
-            <img src="https://image.flaticon.com/icons/svg/143/143361.svg"></img>
+            <img src="https://image.flaticon.com/icons/svg/143/143361.svg" alt=""></img>
           </div>
           <h2 class="heading">
             Suscribete para obtener mas promociones
@@ -62,7 +62,7 @@ function Contenido() {
   </p>
           <form>
             <input className="suscribete" type='text' placeholder="introduce tu email"></input><br />
-            <button class="btn" role="button">
+            <button class="btn" >
               Subscribete
             </button>
           </form>

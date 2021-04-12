@@ -115,7 +115,7 @@ class AddPlace extends React.Component {
                     </div>
                     <div className="upload-data">
 
-                        <img src={this.state.Url} heigth="200" width="200" />
+                        <img src={this.state.Url} heigth="200" width="200" alt="" />
                     </div>
                     <div className="Buttons">
                         <button class="Submit-Button" onClick={this.handleUpload}>Actualizar</button>

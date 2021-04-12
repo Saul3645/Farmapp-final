@@ -24,7 +24,7 @@ export default function DashboardPerfil() {
     return (
         <>
             <div className='perfil'>
-                <img className='avatar' src='https://ubicalas.com/v2/image.php?image=/uploads/3cb546195f28f6f2801d2c9bf608cdfa.png'></img>
+                <img className='avatar' src='https://ubicalas.com/v2/image.php?image=/uploads/3cb546195f28f6f2801d2c9bf608cdfa.png' alt=""></img>
                 <h1 className='user-name'>Perfil</h1>
             </div>
             <section className="containerperfil">

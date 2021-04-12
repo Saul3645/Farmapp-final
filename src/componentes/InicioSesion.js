@@ -43,7 +43,7 @@ export default function InicioSesion() {
                   <input id="email" className="login" type='email' ref={emailRef} placeholder="Introduce tu email" required></input><br />
                   <input id="password" className="loginp"  ref={passwordRef} type='password' placeholder="Introduce tu contraseña" required></input><br />
 
-                  <button disabled={loading} className="btn" type="submit" role="button">
+                  <button disabled={loading} className="btn" type="submit" >
                      Iniciar Sesion 
                   </button><br />
                   <p className="a_reg">

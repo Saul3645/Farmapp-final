@@ -10,7 +10,7 @@ function RelevantesF() {
                     <div class="productos1">
                         <h2><i>Farmacia Superama</i></h2>
                         <div>
-                            <img src="images/logo-store-superama.svg"></img>
+                            <img src="images/logo-store-superama.svg" alt=""></img>
                             <h2>$420.00</h2>
                             <h4>TULUM AV. TULUM SM 11 MANZANA 2 LOTE 3</h4>
                         </div>
@@ -18,7 +18,7 @@ function RelevantesF() {
                     <div class="productos1">
                         <h2><i>Farmacia especialista</i></h2>
                         <div>
-                            <img src="images/logo-store-farmacias_especializadas.svg"></img>
+                            <img src="images/logo-store-farmacias_especializadas.svg" alt=""></img>
                             <h2>$423.00</h2>
                             <h4>CANCÚN AV. TULUM N 26 SM 5 MZ 5 LOTE 1, 7750</h4>
                         </div>

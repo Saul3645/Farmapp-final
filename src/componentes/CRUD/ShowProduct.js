@@ -74,7 +74,7 @@ class ShowProduct extends React.Component {
 
                     <div className="upload-data">
 
-                        <img src={this.state.medicamentos.Url} heigth="200" width="200" />
+                        <img src={this.state.medicamentos.Url} heigth="200" width="200" alt=""/>
                     </div>
                     <div class="container">
                         <div class="panel panel-default">
