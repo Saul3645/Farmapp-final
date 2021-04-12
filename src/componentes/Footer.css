@@ -99,6 +99,10 @@
   font-size: 24px;
 }
 
+.social-icon-link:hover{
+  color: #fff;
+}
+
 .social-media {
   max-width: 1000px;
   width: 100%;
@@ -120,6 +124,11 @@
   width: 240px;
 }
 
+.social-icons:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
 .social-logo {
   color: #fff;
   justify-self: start;
@@ -130,6 +139,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+}
+
+.social-logo:hover{
+  text-decoration: none;
+  color: #fff;
 }
 
 .website-rights {

@@ -8,17 +8,22 @@ h1 {
 }
 
 .cards__container {
-  display: flex;
+  display: grid;
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 }
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  
+  
 }
 
 .cards__items {
@@ -30,6 +35,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  
 }
 
 .cards__item__link {

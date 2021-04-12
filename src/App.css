@@ -18,31 +18,110 @@
   
 
   .farmacias {
-    background-image: url('/src/images/img-2.jpg');
+    background-image: url('./images/img-2.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #000000;
     font-size: 100px;
   }
   
   .medicamentos {
-    background-image: url('/src/images/img-1.jpg');
+    background-image: url('./images/img-1.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #353535;
     font-size: 100px;
   }
 
   .log-in {
-    background-image: url('/src/images/img-8.jpg');
+    background-image: url( './images/img-3.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #fff;
     font-size: 100px;
   }
+
+  .label_{
+    margin-top: 20px;
+    color:#000000;
+    font-size: large;
+    margin-right: 10px;
+  }
+
+  .Add-Button{
+    background-color: rgb(10, 65, 50);
+    border: none;
+    color:#fff;
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .Submit-Button{
+    background-color: #000;
+    border: none;
+    color:#fff;
+    padding: 10px 28px;
+    text-align: center;
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .Edit-Button {
+    background-color: #FF4E00;
+    border: none;
+    color:#fff;
+    padding: 10px 28px;
+    text-align: center;
+    width: 400px;
+  }
+
+  .Buttons{
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .upload-data{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .upload-btn-wrapper{
+    position: relative;
+    overflow:hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .file-btn{
+    border: 2px solid gray;
+    color: gray;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .upload-btn-wrapper input[type=file]{
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    
+  }
+  
   
   @media screen and (max-width: 960px) {
     .farmacias, 

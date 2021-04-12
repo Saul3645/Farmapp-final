@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Contenido from  '../Contenido';
-import Footer from '../Footer';
+
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
       <Contenido />
      
 
-      <Footer />
+      
     </>
   );
 }

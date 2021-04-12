@@ -1,0 +1,62 @@
+.perfil{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background-image: url('https://img.freepik.com/foto-gratis/vista-aerea-capsulas-sobre-fondo-blanco-azul_23-2147867063.jpg?size=626&ext=jpg') ;
+
+}
+.avatar{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border-style: solid;
+}
+.user-name{
+    font-size: 22px;
+    margin-top: 14px;
+}
+
+.botones{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+
+}
+.botones li{
+    display: inline-block;
+    margin: 5px;
+}
+.about{
+    padding: 10px;
+}
+.about h3{
+    color: black;
+    font-size: 16px;
+}
+.about p{
+    font-size: 14px;
+    color: black;
+}
+.botones li  .btn{
+    width:100%;
+    margin: 15px 0px 15px 0px;
+    background:#16EA9C;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    font-size:14px;
+    color:#fff;
+    text-transform:capitalize;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .botones li  .btn:active:focus,
+  .botones li .btn:focus,
+  .botones li  .btn:hover{
+    outline : none;
+  }
+  
+  .botones li .btn:hover{
+    cursor:pointer;
+  }

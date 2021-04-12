@@ -15,6 +15,7 @@ function Footer() {
             <Link to='/farmacias'>Farmacias</Link>           
             <Link to='/medicamentos'>Medicamentos</Link>
             <Link to='/log-in'>Inicia Sesión</Link>
+            <Link to='/list'>Admin</Link>
           </div>
           
           

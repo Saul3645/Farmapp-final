@@ -44,4 +44,6 @@ video {
   margin-left: 4px;
 }
 
-
+.color p{
+  color: black;
+}
