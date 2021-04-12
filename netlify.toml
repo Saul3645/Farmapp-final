@@ -5,6 +5,6 @@
   status = 200
 
   [[build]]
-  command = "yarn build && yarn export"
+  command = "npm build && npm export"
   publish = "out"
 
