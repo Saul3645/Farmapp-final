@@ -2,7 +2,6 @@ import React from 'react';
 import './Perfil.css';
 import { firebase } from '@firebase/app';
 import '@firebase/firestore'
-import CardItem from './CardItem';
 
 
 class Perfil extends React.Component {
@@ -37,7 +36,7 @@ class Perfil extends React.Component {
         return (
             <>
                 <div className='perfil'>
-                    <img className='avatar' src={this.state.farmacias.Url}></img>
+                    <img className='avatar' src={this.state.farmacias.Url}/>
                     <h1 className='user-name'>{this.state.farmacias.Nombre}</h1>
                 </div>
 

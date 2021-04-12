@@ -51,7 +51,7 @@ export default function RegistroSesion() {
                   <input id="password" className="loginp"  ref={passwordRef} type='password' placeholder="Introduce tu contraseña" required></input><br />
                   <input id="password confirm" className="loginp" ref={passwordConfirmRef} type='password' placeholder="Confirma tu contraseña" required></input><br />
 
-                  <button disabled={loading} className="btn" type="submit" role="button">
+                  <button disabled={loading} className="btn" type="submit" >
                      Registrarse
                   </button><br />
                   <p  className="a_reg">
